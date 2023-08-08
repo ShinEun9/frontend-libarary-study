@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import SkeletonApp from "./Skeleton/SkeletonApp";
-// import ModalApp from "./Modal/ModalApp";
+import ModalApp from "./Modal/ModalApp";
 // import InfiniteScrollApp from "./InfiniteScroll/InfiniteScrollApp";
 import IntersectionObserverApp from "./IntersectionObserver/IntersectionObserverApp";
 
@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <>
     {/* <SkeletonApp /> */}
-    {/* <ModalApp /> */}
+    <ModalApp />
     {/* <InfiniteScrollApp /> */}
-    <IntersectionObserverApp />
+    {/* <IntersectionObserverApp /> */}
   </>
 );

@@ -47,7 +47,7 @@ function ModalApp() {
   return (
     <Container>
       <Button onClick={handleOpen}>Open</Button>
-      <Modal isOpen={isOpen} onClose={handleClose}>
+      <Modal isOpen={isOpen} onClose={handleClose} selector="#modal-root">
         <ModalBody>
           <h2>Title</h2>
           <p>Description</p>
