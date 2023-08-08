@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import Skeleton from "./components/Skeleton";
+import Skeleton from "./Skeleton";
 
 const Base = styled.div`
   display: grid;

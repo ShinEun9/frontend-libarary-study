@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "@emotion/styled/macro";
-import Modal from "./components/Modal";
+import Modal from "./Modal";
 
 const Container = styled.div`
   display: flex;
